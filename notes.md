@@ -1,8 +1,4 @@
-# lxc-eurolinux-test
-
-Weekend project to build lxc based images for EuroLinux 9 and 8.
-I never used LXC so it's a good opportunity to learn something new.
-
+# How to use install and use LXC (for tests)
 ## Prerequisites
 
 - Vagrant (so I can easliy destroy images)
@@ -19,7 +15,20 @@ vagrant ssh
 ```
 
 Then install with script (it uses snap what is stupid but OK)
+```
 bash /vagrant/install-lxd.sh
+```
 
-```
-```
+# How to build images
+
+
+
+# Test build images
+
+
+# Automation tests
+
+
+# Automate it with GitHub Actions
+
+
